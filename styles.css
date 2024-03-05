@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0f0f0f, #36310c);
+}
+
+.navbar{
+  background-color: linear-gradient(45deg, #0f0f0f, #36310c);
+  color: #0f0f0f;
+  padding: 10px;
+  font-style: oblique;
+  border:solid white;
+  border-radius: 16px;
+  box-shadow: 0px 3px 15px;
+}
+
+.nav-link{
+  color: white;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+  background-color: #0f0f0f;
+  box-shadow: -8px -8px 15px rgba(255, 255, 235, 0.15);
+}
+
+.navbar-brand{
+  color: white;
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+  background-color: #0f0f0f;
+  box-shadow: -8px -8px 15px rgba(255, 255, 235, 0.15);
+}
+.calculator{
+  border: solid white;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: 0px 3px 15px #474347;
+}
+
+input{
+  width: 320px;
+  border: solid 2px rgba(253, 252, 252, 0.991);
+  border-radius:solid 10px;
+  padding: 24px;
+  margin: 10px;
+  background: rgba(255, 255, 235, 0.3);
+  box-shadow:inset 0px 0px 8px rgba(0, 0, 0, 0.4) ;
+  font-size: 40px;
+  text-align: right;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: pointer;
+}
+
+input::placeholder{
+  color: white;
+}
+
+button{
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 235, 0.15); 
+  cursor: pointer;
+}
+
+.EqualButton{
+  background-color: darkorange;
+}
+
+.operator{
+  color: darkorange;
+}
